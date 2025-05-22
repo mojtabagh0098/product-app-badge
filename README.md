@@ -1,10 +1,6 @@
-# Shopify App Template - Remix
+# Product Badge App
 
-This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using the [Remix](https://remix.run) framework.
-
-Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](https://shopify.dev/docs/apps/getting-started/create).
-
-Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app-remix) for more details on the Remix app package.
+Product Badge App is a Shopify app template that helps you add custom badges to products in your store. Built with Remix, it provides out-of-the-box authentication, API integration, and a modern UI using Polaris, making it easy to develop and deploy Shopify apps quickly.
 
 ## Quick start
 
