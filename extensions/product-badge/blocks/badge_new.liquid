@@ -1,0 +1,13 @@
+{% if product.tags contains 'new' %}
+<div style="position: absolute; top: 10px; left: 10px; background: red; color: white; padding: 4px 8px; font-weight: bold; border-radius: 4px;">
+  New
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Badge - New",
+  "target": "section",
+  "settings": []
+}
+{% endschema %}
