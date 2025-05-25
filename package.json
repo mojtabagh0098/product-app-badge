@@ -2,7 +2,7 @@
   "name": "product-app-badge",
   "private": true,
   "scripts": {
-    "build": "npx prisma generate && remix vite:build",
+    "build": "npx remix vite:build && npx prisma generate",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
