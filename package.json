@@ -2,7 +2,7 @@
   "name": "product-app-badge",
   "private": true,
   "scripts": {
-    "build": "shopify app deploy",
+    "build": "shopify app deploy && prisma generate",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
