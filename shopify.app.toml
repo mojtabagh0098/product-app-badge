@@ -3,7 +3,7 @@
 client_id = "b021d84cc27d572ac28c74b192e9d3d1"
 name = "Product App Badge"
 handle = "product-app-badge"
-application_url = "https://participated-behavioral-sas-earliest.trycloudflare.com"
+application_url = "https://product-app-badge.vercel.app"
 embedded = true
 
 [build]
@@ -27,9 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://participated-behavioral-sas-earliest.trycloudflare.com/auth/callback",
-  "https://participated-behavioral-sas-earliest.trycloudflare.com/auth/shopify/callback",
-  "https://participated-behavioral-sas-earliest.trycloudflare.com/api/auth/callback"
+  "https://product-app-badge.vercel.app/auth/callback",
+  "https://product-app-badge.vercel.app/auth/shopify/callback",
+  "https://product-app-badge.vercel.app/api/auth/callback"
 ]
 
 [pos]
