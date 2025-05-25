@@ -2,7 +2,7 @@
   "name": "product-app-badge",
   "private": true,
   "scripts": {
-    "build": "prisma generate && remix vite:build",
+    "build": "shopify app deploy",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
