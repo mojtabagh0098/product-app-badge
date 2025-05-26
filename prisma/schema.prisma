@@ -26,6 +26,7 @@ model Session {
   email         String?
   accountOwner  Boolean   @default(false)
   locale        String?
+  expires       DateTime?
   collaborator  Boolean?  @default(false)
   emailVerified Boolean?  @default(false)
 }
